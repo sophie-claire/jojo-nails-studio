@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Appointment | Jojo Nails Studio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <a href="index.html" class="logo">
+            JOJO <span>♡</span>
+            <small>NAILS STUDIO</small>
+        </a>
+
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="service.html">Services</a>
+            <a href="my work.html">My Work</a>
+            <a href="about.html">About</a>
+            <a href="calculator.html">Price Calculator</a>
+            <a href="book-appointment.html" class="active">Book Appointment</a>
+        </nav>
+    </header>
+
+    <main class="appointment-section">
+
+        <div class="appointment-image">
+            <img src="calender.jpg" alt="Nail designs at Jojo Nails Studio">
+        </div>
+
+        <div class="appointment-content">
+            <p class="eyebrow">YOUR BEAUTY, YOUR MOMENT</p>
+
+            <h1>Book Your <span>Appointment</span></h1>
+
+            <p class="appointment-description">
+                Ready for beautiful nails? Book your appointment
+                and let us give your nails the care they deserve.
+            </p>
+
+            <form class="appointment-form">
+
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name"
+                       placeholder="Enter your full name" required>
+
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone"
+                       placeholder="Enter your phone number" required>
+
+                <label for="service">Choose a Service</label>
+                <select id="service" name="service" required>
+                    <option value="">Select a service</option>
+                    <option value="manicure">Manicure</option>
+                    <option value="pedicure">Pedicure</option>
+                    <option value="gel-nails">Gel Nails</option>
+                    <option value="acrylic-nails">Acrylic Nails</option>
+                    <option value="nail-art">Nail Art</option>
+                </select>
+
+                <label for="date">Appointment Date</label>
+                <input type="date" id="date" name="date" required>
+
+                <label for="time">Preferred Time</label>
+                <input type="time" id="time" name="time" required>
+
+                <label for="message">Additional Details</label>
+                <textarea id="message" name="message"
+                          placeholder="Tell us about your preferred nail design"></textarea>
+
+                <button type="submit">Book Appointment ♡</button>
+
+            </form>
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <p>© 2026 Jojo Nails Studio. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
